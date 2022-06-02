@@ -1,7 +1,8 @@
-import java.util.ArrayList;
+package com.navigator.www;
+
 import java.util.HashMap;
 
-public class PublicTransport<K, V> implements Strategy<K, V>{
+public class WalkLegs<K, V> implements Strategy<K,V>{
     @Override
     public HashMap<K, V> getRoute(K x, V y) {
         var map = new HashMap<K, V>();

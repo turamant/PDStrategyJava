@@ -1,5 +1,5 @@
-import java.lang.reflect.Type;
-import java.util.ArrayList;
+package com.navigator.www;
+
 import java.util.HashMap;
 
 public class AutoCarStrategy<K, V> implements Strategy<K, V>{

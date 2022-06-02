@@ -1,9 +1,11 @@
+package com.navigator.www;
+
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Pattern Design - Strategy!");
+        System.out.println("Pattern Design - com.navigator.www.Strategy!");
 
         Context<Integer, Double> context = new Context<>();
 
@@ -16,7 +18,7 @@ public class Main {
         Double argY = scanner.nextDouble();
 
         if (operand.equals("+")) {
-            context.setStrategy(new AutoCarStrategy<>(12));
+            context.setStrategy(new AutoCarStrategy<>());
         }
         if (operand.equals("-")) {
             context.setStrategy(new WalkLegs<>());
